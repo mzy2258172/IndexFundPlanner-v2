@@ -1,9 +1,11 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import '../domain/entities/fund.dart';
-import '../data/repositories/fund_repository_impl.dart';
+import '../../domain/entities/fund.dart';
+import '../../domain/repositories/fund_repository.dart';
+import '../../data/repositories/fund_repository_impl.dart';
 
 // Re-export from repository impl
-export '../data/repositories/fund_repository_impl.dart';
+export '../../data/repositories/fund_repository_impl.dart';
+export '../../domain/repositories/fund_repository.dart';
 
 /// 基金列表状态
 class FundListState {
