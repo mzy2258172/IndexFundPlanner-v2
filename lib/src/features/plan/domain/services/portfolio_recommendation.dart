@@ -346,7 +346,7 @@ class PortfolioRecommendationEngine {
     for (final portfolio in portfolios) {
       final avgReturn = ((portfolio.expectedReturnMin ?? 0) + (portfolio.expectedReturnMax ?? 0)) / 2;
       final risk = _estimatePortfolioRisk(portfolio);
-      final sharpe = risk > 0 ? avgReturn / risk : 0;
+      final sharpe = (risk > 0 ? avgReturn / risk : 0).toDouble();
       
       if (avgReturn > maxReturn) {
         maxReturn = avgReturn;
