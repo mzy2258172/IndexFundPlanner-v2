@@ -1,4 +1,4 @@
-import '../domain/entities/plan.dart';
+import '../entities/plan.dart';
 
 abstract class PlanRepository {
   /// 获取用户所有投资计划

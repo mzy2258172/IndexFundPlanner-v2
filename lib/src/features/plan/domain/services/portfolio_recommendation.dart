@@ -1,5 +1,5 @@
 import '../entities/plan.dart';
-import '../../user/domain/entities/user.dart';
+import '../../../user/domain/entities/user.dart';
 import 'fund_scoring.dart';
 
 /// 组合推荐算法

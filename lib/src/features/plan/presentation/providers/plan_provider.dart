@@ -1,11 +1,11 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:uuid/uuid.dart';
-import '../domain/entities/plan.dart';
-import '../domain/repositories/plan_repository.dart';
-import '../domain/services/portfolio_recommendation.dart';
-import '../data/repositories/plan_repository_impl.dart';
-import '../../user/domain/entities/user.dart';
-import '../../user/presentation/providers/user_provider.dart';
+import '../../domain/entities/plan.dart';
+import '../../domain/repositories/plan_repository.dart';
+import '../../domain/services/portfolio_recommendation.dart';
+import '../../data/repositories/plan_repository_impl.dart';
+import '../../../user/domain/entities/user.dart';
+import '../../../user/presentation/providers/user_provider.dart';
 
 /// 计划Repository Provider
 final planRepositoryProvider = Provider<PlanRepository>((ref) {
