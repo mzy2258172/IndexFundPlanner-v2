@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import '../../features/user/domain/entities/user.dart';
 import '../../features/user/presentation/providers/user_provider.dart';
 import '../../features/user/domain/entities/user.dart';
 
